@@ -1,7 +1,7 @@
 === Zillah ===
 
 Contributors: themeisle, codeinwp
-Tags: gray, green, responsive-layout, right-sidebar, one-column, custom-background, custom-colors, featured-image-header, featured-images, sticky-post, photoblogging, translation-ready, threaded-comments, rtl-language-support, theme-options
+Tags: right-sidebar, one-column, custom-background, custom-colors, featured-image-header, featured-images, sticky-post, translation-ready, threaded-comments, rtl-language-support, theme-options
 
 Requires at least: 4.0
 Tested up to: 4.4.2
@@ -64,6 +64,8 @@ Zillah includes support for Infinite Scroll in Jetpack.
 
 * Based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
 * normalize.css http://necolas.github.io/normalize.css/, (C) 2012-2016 Nicolas Gallagher and Jonathan Neal, [MIT](http://opensource.org/licenses/MIT)
+
+* Portuguese - BRAZIL translations - Caio Norder https://github.com/caionorder 
 
 == Available hooks ==
 
