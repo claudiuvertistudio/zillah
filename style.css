@@ -1687,7 +1687,8 @@ p.dropcap:first-letter {
 }
 
 .blog-post,
-.site-main > article.article {
+.site-main > article.article,
+.search-page .site-main > article {
     border: 0px;
     padding: 45px 0 45px 0;
     margin-bottom: 60px;
