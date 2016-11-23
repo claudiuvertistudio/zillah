@@ -76,10 +76,10 @@
 	wp.customize( 'zillah_tags_show', function( value ) {
 		value.bind( function( to ) {
 			if( to !== false ) {
-                $( '.tags-links' ).addClass( 'zillah-only-customizer' );
+                $( '.tags-links' ).removeClass( 'zillah-only-customizer' );
 			}
 			else {
-                $( '.tags-links' ).removeClass( 'zillah-only-customizer' );
+                $( '.tags-links' ).addClass( 'zillah-only-customizer' );
 			}
 		} );
 	} );
@@ -117,14 +117,16 @@
 	// Sidebar
 	wp.customize( 'zillah_sidebar_show', function( value ) {
 		value.bind( function( to ) {
-			if( to !== false ) {
-				$( '#secondary' ).removeClass( 'zillah-only-customizer' );
-				$( '.content-area' ).addClass( 'content-area-with-sidebar' );
-			}
-			else {
-				$( '#secondary' ).addClass( 'zillah-only-customizer' );
-				$( '.content-area' ).removeClass( 'content-area-with-sidebar' );
-			}
+            if( !$( 'body' ).hasClass( 'single-post' ) && !$( 'body' ).hasClass( 'page' ) ) {
+                if (to !== false) {
+                    $('#secondary').removeClass('zillah-only-customizer');
+                    $('.content-area').addClass('content-area-with-sidebar');
+                }
+                else {
+                    $('#secondary').addClass('zillah-only-customizer');
+                    $('.content-area').removeClass('content-area-with-sidebar');
+                }
+            }
 		} );
 	} );
 
