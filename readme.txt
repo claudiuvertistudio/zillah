@@ -46,8 +46,8 @@ The exceptions to this license are as follows:
 
 	Images from screenshot:
 
-	* https://images.unsplash.com/photo-1440613905118-99b921706b5c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d46f4d7f29ff0d8d6c73c85d36605664
-	* https://images.unsplash.com/photo-1460500063983-994d4c27756c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=27c2758e7f3aa5b8b3a4a1d1f1812310
+	* https://unsplash.com/photos/bITjK6W2Alw
+	* https://unsplash.com/photos/sYegwYtIqJg
 
 == Frequently Asked Questions ==
 
